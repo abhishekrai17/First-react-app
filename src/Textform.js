@@ -3,7 +3,7 @@ import React, { useState } from 'react'
 export default function Textform(props) {
     const [text, setText] = useState("Enter Text Here");
     const [myStyle, setmyStyle] = useState({
-        backgroundColor: 'grey',
+        backgroundColor: 'blue',
         color: 'white'
     });
     const upperCase = () => {
